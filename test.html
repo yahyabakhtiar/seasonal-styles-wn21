@@ -1,0 +1,55 @@
+<html>
+    <head>
+
+            <title>JQuery Test Page </title>
+            <script src="https://code.jquery.com/jquery-latest.js"> </script>
+    </head>
+            <body>
+                <h1>JQuery Test Page</h1>
+                <div id="myDiv"> This is my div!</div>
+                    <ul>
+
+                        <li> I' am a list item!</li>
+                        <li> I' am a list item!</li>
+                        <li> I' am a list item!</li>
+                        <li> I' am a list item!</li>
+                        <li> I' am a list item!</li>
+                        <li> I' am a list item!</li>
+                        <li> I' am a list item!</li>
+                        <li> I' am a list item!</li>
+                        <li> I' am a list item!</li>
+                    </ul>
+
+
+
+
+
+                <script>      
+  
+                $(function(){
+/*
+                   // alert("just the dollor sighn!");
+                   $("div#myDiv").css("border","2px solid red");
+                   $("div#myDiv").css("background-color","yellow");
+                   $("div#myDiv").append(" This gets added to the div!");
+                  
+                   
+                  */  
+                  $("div#myDiv li:even").css("background-color"," aqua");
+                  $("div#myDiv").hide().fadeIn(5000 function){
+                        
+                    $("div#myDiv li").each(function(){
+                        $(this).slideDown(2000);
+
+                    };
+
+                  };
+
+                });
+            // alert
+                </script>
+
+        </body>
+
+
+</html>
